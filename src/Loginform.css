@@ -1,0 +1,93 @@
+.wrap{
+    width: 400px;
+    background:blueviolet;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrap h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrap .inputname{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.inputname input{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.inputname input::placeholder{
+    color: #fff;
+}
+.inputname .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrap .forgotpassword{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.forgotpassword label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.forgotpassword a{
+    color: #fff;
+    text-decoration: none;
+}
+.forgotpassword a:hover{
+    text-decoration: underline;
+}
+
+.wrap button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.wrap .registernew{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registernew p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registernew p a:hover{
+    text-decoration: underline;
+}
+
